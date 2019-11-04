@@ -19,15 +19,14 @@
          <id>internal.repo</id>
          <name>Internal repo</name>
          <url>file:///var/lib/jenkins/MyArtifacts/</url>
-        
-         <properties>
-            <maven.compiler.source>1.6</maven.compiler.source>
-            <maven.compiler.target>1.6</maven.compiler.target>
-         </properties>
-
        </repository>
    </distributionManagement>
-
+  
+  <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
